@@ -1,0 +1,60 @@
+{
+    "files.exclude": {
+        "__latexindent_temp.tex": true,
+        "**/*.aux": true,
+        "**/*.bbl": true,
+        "**/*.blg": true,
+        "**/*.fdb_latexmk": true,
+        "**/*.fls": true,
+        "**/*.log": true,
+        "**/*.out": true,
+        "**/*.synctex.gz": true
+    },
+    "cSpell.enabled": true,
+    "editor.cursorBlinking": "solid",
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 80,
+    "editor.wrappingIndent": "same",
+    "latex-workshop.debug.showUpdateMessage": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "cSpell.language": "en,en-GB",
+    // Customising theme to adapt to LaTeX use
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "support.function.be.latex"
+                ],
+                "settings": {
+                    "foreground": "#eb5424"
+                }
+            },
+            {
+                "scope": [
+                    "support.function.general.tex"
+                ],
+                "settings": {
+                    "foreground": "#5dc9e2"
+                }
+            },
+            {
+                "scope": [
+                    "support.function.section.latex"
+                ],
+                "settings": {
+                    "foreground": "#f9e64f"
+                }
+            },
+            {
+                "scope": [
+                    "markup.raw.verb.latex"
+                ],
+                "settings": {
+                    "foreground": "#42b883"
+                }
+            }
+        ]
+    }
+}
+

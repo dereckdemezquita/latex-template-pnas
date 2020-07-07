@@ -1,7 +1,7 @@
 # latex-template-pnas
 
 <p align="center">
-    <img src="./img/latex-template-assign-sc.png" width="300">
+    <img src="./img/main.png" width="300">
 </p>
 
 A LaTeX template adapted from the PNAS format, this is includes all the necessary components to work with Visual Studio Code, including but not limited to:  Visual Studio Code tasks, custom syntax highlighting for LaTeX, a custom dictionary (spell checker).
